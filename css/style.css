@@ -187,3 +187,38 @@ li{
 .active{
     color: rgb(255, 32, 32) !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575.98px) { 
+    .amount {
+        padding: 32px 6px 130px 6px;
+    }
+    .banner-top {
+        margin: 20px 10px;
+        top: -135px;
+    }
+    .send {
+        color: #000;
+        line-height: 2.5;
+        font-size: 15px;
+    }
+ }
