@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*h1,h2,h3,h4,h5,h6,p,span,input,button,textarea,a,li{
+    
+}*/
+
+body{
+    background: #ECF4FD;
+}
+a{
+    text-decoration: none;
+}
+dl, ol, ul {
+    margin: 0%;
+}
+li{
+    list-style: none;
+}
+
+/* top header css code here */
+
+.top-header{
+    padding: 20px 6px;
+    background-image: linear-gradient(to right, #15406d, #164779, #174d86, #185492, #1a5b9f);
+}
+
+.right-btn ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.right-btn ul li a i{
+    font-size: 22px;
+    color: #fff;
+}
+.navCompute {
+    font-size: 10px;
+    position: absolute;
+    top: -5px;
+    right: -12px;
+    background-color: rgb(255, 32, 32);
+}
+.nav-circle {
+    padding: 0 4px;
+    border-radius: 50%;
+    color: #fff;
+    border: none;
+}
+.navbar-toggler-icon{
+    width: 1.6em;
+    height: 1.6em;
+    z-index: 999;
+    background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important; 
+}
+.navbar-toggler {
+    padding: 0;
+    border: 2px solid #fff !important;
+}
+.navbar-toggler:focus {
+    box-shadow:none;
+}
+/* amount section css code */
+.amount{
+    padding: 0px 6px 180px 6px;
+    background-image: linear-gradient(to right, #15406d, #164779, #174d86, #185492, #1a5b9f);
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+.total-amt{
+    color: #fff;
+    font-size: 22px;
+}
+.total-amt span{
+    color: #fff;
+    font-size: 16px;
+}
+.total-amt i{
+    margin-right: 10px;
+    
+}
+
+/* banner top section css */
+.banner-top{
+    background: #fff;
+    padding: 20px 10px;
+    border-radius: 35px;
+    margin: 0 10px;
+    position: relative;
+    top: -160px;
+}
+.icon{
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 50%;
+    background: #e1efed;
+    padding: 12px;
+    transition: all .5s ease;
+}
+
+.send{
+    color: #000;
+    line-height: 2.5;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* banner top section css */
+.banner-bottom{
+    background: #fff;
+    padding: 20px 10px;
+    border-radius: 35px;
+    margin: 0 10px;
+    position: relative;
+    top: -120px;
+}
+.circle{
+    transition: all .5s ease;
+}
+.circle:hover .icon{
+    transition: all .5s ease;
+    background: #a4c5c0;
+    transform: scale(1.05);
+}
+.circle:hover .send{
+    transition: all .5s ease;
+    color: #174d86;
+}
+.line{
+    max-width: 100px;
+    height: 6px;
+    background: #e1efed;
+    border-radius: 10px;
+    margin: 10px auto;
+    margin-bottom: 40px;
+}
+.banner-bottom .icon{
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    background: #e1efed;
+    padding: 12px;
+}
+.banner-bottom .send{
+    color: #000;
+    line-height: 3;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* nav-footer section css here */
+
+.nav-footer{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    background: #fff;
+    border-top: 1px solid #eefaf8;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    padding-top: 20px;
+   
+}
+.nav-footer .send{
+    color: #000;
+    line-height: 3;
+    font-size: 16px;
+    font-weight: 400;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: center !important;
+}
+.nav-item{
+    display: block !important;
+}
+.f-icon i{
+    font-size: 32px;
+    color: gray;
+}
+.f-icon:active i,
+.f-icon:hover i, .f-icon:focus-within i{
+    font-size: 32px;
+    color: rgb(255, 32, 32);
+}
+.active{
+    color: rgb(255, 32, 32) !important;
+}
