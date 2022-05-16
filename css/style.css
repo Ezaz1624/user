@@ -217,8 +217,11 @@ li{
         top: -135px;
     }
     .send {
-        color: #000;
-        line-height: 2.5;
+       
         font-size: 15px;
+    }
+    .nav-footer .send {
+        
+        font-size: 14px;
     }
  }
