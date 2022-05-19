@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*h1,h2,h3,h4,h5,h6,p,span,input,button,textarea,a,li{
+    
+}*/
+
+body{
+    background: #CEE1EF;
+}
+a{
+    text-decoration: none;
+}
+dl, ol, ul {
+    margin: 0%;
+}
+li{
+    list-style: none;
+}
+/***** kisti section css  ****/
+.debt-amount p{
+    background: #0367AF;    
+    display: inline-block;
+    padding: 16px 30px;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+}
+
+.kisti-button a{
+    background: #0367AF;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-right: 10px;
+    border: 2px solid #fff;
+
+}
+
+
+/* Paid Loan page css code here */
+
+.debt-head{
+    background: #0367AF;
+    padding: 20px 50px;
+    color: #fff;
+}
+
+
+@media (max-width: 575.98px) { 
+
+    .debt-head {
+        padding: 20px 10px;
+    }
+    .record h5{
+        font-size: 16px;
+    }
+    .debt-card p{
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    .table th{
+        font-size: 12px;
+    }
+
+
+}
