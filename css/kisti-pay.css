@@ -116,6 +116,8 @@ li{
 /* team page css code here */
 .team-card{
     margin: 0 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .team-head{
     background:#0367AF;
@@ -143,12 +145,22 @@ li{
     border-bottom: 2px solid #0367AF;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    background: #fff;
 }
 .team-body p span{
     font-weight: bold;
     margin-right: 6px;
 }
+/* work page css code here */
 
+.work td a i{
+    color: #0367AF;
+    font-size: 20px;
+}
+.work td a:hover i{
+    color: #fff;
+    transition: all 0.5s ease;
+}
 
 
 
@@ -174,6 +186,10 @@ li{
          
     }.team-card{
         margin: 6px 10px;
+    }
+    .work td a i{
+       
+        font-size: 12px;
     }
 
 
