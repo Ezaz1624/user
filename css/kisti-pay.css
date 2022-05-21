@@ -113,6 +113,42 @@ li{
 }
 
 
+/* team page css code here */
+.team-card{
+    margin: 0 50px;
+}
+.team-head{
+    background:#0367AF;
+    position: relative;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   
+}
+.team-img{    
+    text-align: center;
+    
+}
+.team-img img{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin: -1px ;
+    position: relative;  
+    top: 40px; 
+}
+.team-body{
+    padding: 50px 10px 20px 16px;
+    border-left: 2px solid #0367AF;
+    border-right: 2px solid #0367AF;
+    border-bottom: 2px solid #0367AF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.team-body p span{
+    font-weight: bold;
+    margin-right: 6px;
+}
+
 
 
 
@@ -136,6 +172,8 @@ li{
     .step-card{
         padding: 20px 4px;
          
+    }.team-card{
+        margin: 6px 10px;
     }
 
 
