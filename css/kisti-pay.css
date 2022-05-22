@@ -186,6 +186,15 @@ li{
     overflow: hidden;
 }
 
+/* monitoring page css code here */
+
+.monitoring td img{
+    width: 50px;
+    height: 50px;
+}
+.monitoring td a i {
+    font-size: 24px;
+}
 
 
 
@@ -221,6 +230,12 @@ li{
     .work-model .form-check ul li{
         display: inline-block;
         margin-left: 6px;
+    }
+    .monitoring td{
+        font-size: 13px;
+    }
+    .monitoring td a i {
+        font-size: 16px;
     }
 
 
