@@ -161,6 +161,30 @@ li{
     color: #fff;
     transition: all 0.5s ease;
 }
+.work-model .modal-header{
+    background: #0367AF;
+    color: #fff;
+}
+.work-model .form-check{
+    /* border-bottom: 1px solid #0367AF; */
+}
+.work-model .form-check ul li img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+.work-model .form-check ul li{
+    display: inline-block;
+    margin-left: 16px;
+}
+.form-check-input {
+    margin-top: 1.25em;
+    margin-left: -8px !important;
+}
+.form-check{
+    overflow: hidden;
+}
 
 
 
@@ -190,6 +214,13 @@ li{
     .work td a i{
        
         font-size: 12px;
+    }
+    .work-model .form-check ul {
+        padding: 5px;
+    }
+    .work-model .form-check ul li{
+        display: inline-block;
+        margin-left: 6px;
     }
 
 
