@@ -196,6 +196,33 @@ li{
     font-size: 24px;
 }
 
+/* work view page css code */
+
+.work-card{
+    max-width: 450px;
+    background: #fff;
+    padding: 10px 80px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+}
+.work-card .card-body img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.work-form .work-row ul {
+    padding-left: 0%;
+}
+.work-form .work-row ul li{
+    display: inline-block;
+    margin: 10px ;
+    color: #000;
+}
+.work-form .work-row ul li a p{
+    margin-top: 6px;
+    color: #000;
+}
 
 
 
@@ -236,6 +263,9 @@ li{
     }
     .monitoring td a i {
         font-size: 16px;
+    }
+    .work-card {
+        padding: 10px 32px;
     }
 
 
