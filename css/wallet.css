@@ -4,15 +4,18 @@ body{
      
  
 }
+.bg-wrap{
+    padding: 6px;
+}
 .form-wrap{
     margin: 20px auto;
     margin-bottom: 120px;
-    width: 450px;
+    max-width: 450px;
     background: #F2F3F7;
     padding: 30px;
     border-radius: 10px;
     border-top-left-radius: 50px;
-    border-top: 10px solid #28A544;
+    border-top: 8px solid #0367AF;
     
 }
 .form-group h2{
@@ -41,7 +44,7 @@ body{
     margin: 10px auto;
     width: 120px;
     height: 3px;
-    background: #28A544;
+    background: #0367AF;
 }
 .form-row{
     margin-bottom: 10px;  
@@ -75,8 +78,8 @@ body{
     margin-top:10px;
     text-align: center;
     color: #fff;
-    background-color: #28a745;
-    border-color: #28a745; 
+    background-color: #0367AF;
+    border-color: #0367AF; 
     font-weight: bold; 
 }
 .condition{
@@ -84,7 +87,7 @@ body{
 }
 .condition a{
     text-decoration: none;
-    color: #28a745;
+    color: #0367AF;
     font-family: 'Roboto', sans-serif;
 }
 
