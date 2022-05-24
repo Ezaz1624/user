@@ -49,6 +49,13 @@ li{
     padding: 20px 50px;
     color: #fff;
 }
+.home a{
+    font-size: 24px;
+    color: #fff;
+}
+.home a:hover{
+    color: #FF2020;
+}
 .tbl-head th{
     color: #0367AF;
 }
@@ -165,9 +172,7 @@ li{
     background: #0367AF;
     color: #fff;
 }
-.work-model .form-check{
-    /* border-bottom: 1px solid #0367AF; */
-}
+
 .work-model .form-check ul li img{
     width: 50px;
     height: 50px;
